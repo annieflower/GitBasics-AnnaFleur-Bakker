@@ -1,0 +1,29 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+.bloklinks{
+	height: 300px;
+	width: 530px;
+	background-color: #778899;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 10px;
+	float: left;
+
+}
+.blokrechts{
+	height: 300px;
+	width: 530px;
+	background-color: #778899;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 10px;
+	float: right;
+}
+#AnnaFleur{
+	margin-left: 570px;
+}
