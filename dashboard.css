@@ -1,29 +1,196 @@
+@media only screen and (min-width: 321px) and (max-width: 720px) { 
+    body{ 
+        body{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+}
+html {
+  box-sizing: border-box;
+}
+
+
+body{
+  
+  color: white;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+.grid-container  {
+    display:grid;
+    grid-template-areas:
+    "Benzine Voedsel"
+    "Snelheid Afstand";
+}
+
+.Benzine{
+    background-color: #778899;
+    grid-area: Benzine;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+    
+}
+.Voedsel{
+    background-color: #778899;
+    grid-area: Voedsel;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Snelheid{
+    background-color: #778899;
+    grid-area: Snelheid;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Afstand{
+    background-color: #778899;
+    grid-area: Afstand;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+        }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row;
+        }
+     }
 body{
 	margin: 0;
 	padding: 0;
-	background-color: #000;
+	color: white;
 }
-.bloklinks{
-	height: 300px;
-	width: 530px;
-	background-color: #778899;
-	margin-bottom: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
-	border-radius: 10px;
-	float: left;
 
+@media only screen and (min-width: 721px) and (max-width: 1024px) {
+     body{ 
+        background-color: #B56357;
+        }
+     }
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
 }
-.blokrechts{
-	height: 300px;
-	width: 530px;
-	background-color: #778899;
-	margin-bottom: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
-	border-radius: 10px;
-	float: right;
+html {
+  box-sizing: border-box;
 }
-#AnnaFleur{
-	margin-left: 570px;
+
+
+body{
+  
+  color: white;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
 }
+
+
+.grid-container  {
+    display:grid;
+    grid-template-areas:
+    "Benzine Voedsel"
+    "Snelheid Afstand";
+}
+
+.Benzine{
+    background-color: #778899;
+    grid-area: Benzine;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+    
+}
+.Voedsel{
+    background-color: #778899;
+    grid-area: Voedsel;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Snelheid{
+    background-color: #778899;
+    grid-area: Snelheid;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Afstand{
+    background-color: #778899;
+    grid-area: Afstand;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+
+@media only screen and (min-width: 1025px) { 
+    body{  
+        background-color: #B56357;
+        }
+     }
+
+html {
+  box-sizing: border-box;
+}
+
+
+body{
+  
+  color: white;
+  font-family: 'Asap Condensed', verdana, sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+.grid-container  {
+    display:grid;
+    grid-template-areas:
+    "Benzine Voedsel"
+    "Snelheid Afstand";
+}
+
+.Benzine{
+    background-color: #778899;
+    grid-area: Benzine;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+    
+}
+.Voedsel{
+    background-color: #778899;
+    grid-area: Voedsel;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Snelheid{
+    background-color: #778899;
+    grid-area: Snelheid;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+}
+.Afstand{
+    background-color: #778899;
+    grid-area: Afstand;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    height: 200px;
+
