@@ -2,16 +2,18 @@
 <html lang="nl">
 	<head>
 		<meta charset="UTF-8" />
-		<title>CSS-grid speeltuin</title>
+		<title>Dashboard Anna Fleur</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- css -->
 		<link type="text/css" href="screenwidth.css" rel="stylesheet" />
 		<link type="text/css" href="donutchart.css" rel="stylesheet"/>
 		<link type="text/css" href="linechart.css" rel="stylesheet"/>
+		<link type="text/css" href="countdown.css" rel="stylesheet"/>
 		<!-- Javascripts -->
 		<script type="text/javascript" src="donutchart.js"></script>
 		<script type="text/javascript" src="countdown.js"></script>
 	  	<script type="text/javascript" src="linechart.js"></script>
-	  	<script type="text/javascript" src="donutchart.js"></script>
+	  	<script type="text/javascript" src="snelheidsmeter.js"></script>
 		<!-- <script type="text/javascript" src="backgroundjs.js"></script> -->
 		
 	</head>
@@ -19,7 +21,7 @@
 	  <div class="grid-container">
 		    <div class="Benzine">
 		    	<h2>Benzine</h2>
-		    	<p id="benzine">50</p>
+		    	<p id="benzine">50 % </p>
 		    </div>
 
 		    <div class="Voedsel">
@@ -39,20 +41,39 @@
 
 		    	
 
-		    <div class="Snelheid"><h2>Snelheid</h2></div>
+	 <div class="Snelheid"> <h2>Snelheid</h2>
+		<div id="wrapper">
+  
+		    <svg id="meter">
+		    <circle id="outline_curves" class="circle outline" cx="50%" cy="50%"></circle>
+		    
+		    <circle id="low" class="circle range" cx="50%" cy="50%" stroke="#e5405e" offset="10%"></circle>
+		    
+		    <circle  id="avg" class="circle range" cx="50%" cy="50%" stroke="#7CCCE5"></circle>
+		    
+		    <circle id="high" class="circle range" cx="50%" cy="50%" stroke="#E04644"></circle>
+		    
+		    <circle id="mask" class="circle" cx="50%" cy="50%"></circle>
+		    
+		    <circle id="outline_ends" class="circle outline" cx="50%" cy="50%"></circle>
+		    
+		 	</svg>
+		  
+		    <img id="meter_needle" src="gauge-needle.svg" alt="">
+		 
+		   <input id="slider" type="range" min="0" max="100" value="0" />
+
+		  <label id="lbl" id="value" for="">0</label>
+  		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+
+		    </div>
 
 		    <div class="Afstand">
 		    <h2>Afstand</h2>
-		    	<div class="container">
-    				<div class="row">
-       					<div class="col-xs-12" >
-           					<div class="top" id="top-line-chart">
-              				</div>
-              			</div>
-               		</div>
-               </div>
-  			</div>
-	  </div>
+		    </div>	
 
 
 	  

@@ -14,7 +14,7 @@ body{
     grid-area: Benzine;
     padding: 10px; 
     margin: 5px; 
-    height: 50%; 
+    
 }
 /*#druppel{
     max-width: 100%;
@@ -27,14 +27,12 @@ body{
     grid-area: Voedsel;
     padding: 10px;
     margin: 5px;
-    height: 50%;
 }
 .Snelheid{
     background-color: #484848;
     grid-area: Snelheid;
     padding: 10px;
     margin: 5px;
-    height: 50%;
   
 }
 
@@ -43,12 +41,11 @@ body{
     grid-area: Afstand;
     padding: 10px;
     margin: 5px;
-    height: 50%;
+
 
 }
 .grid-container{
   display: grid;
-  grid-gap: 10px;
 
   grid-template-areas: 
         "countdown"
