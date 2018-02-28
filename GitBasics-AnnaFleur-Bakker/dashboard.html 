@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>CSS-grid speeltuin</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="dashboard.css" rel="stylesheet" />
+		<!--<script type="text/javascript" src="backgroundjs.js"></script>-->
+	</head>
+	<body>
+	  <div class="grid-container">
+	    <div class="Benzine">
+	    	<h2>Benzine</h2>
+	    		<!-- <img id="druppel" src="Industry.png" alt="Benzine" width="1000" height="300"> -->
+
+	    </div>
+	    <div class="Voedsel"><h2>Voedsel</h2></div>
+	    <div class="Snelheid"><h2>Snelheid</h2></div>
+	    <div class="Afstand"><h2>Afstand</h2></div>
+	  </div>
+	</body>
+</html>

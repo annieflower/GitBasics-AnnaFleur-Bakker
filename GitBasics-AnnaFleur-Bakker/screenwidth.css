@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Asap Condensed', verdana, sans-serif;
+    font-size: 5px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.Benzine{
+
+    background-color:#484848;
+    grid-area: Benzine;
+    padding: 10px; 
+    margin: 5px; 
+    height: 50%; 
+}
+/*#druppel{
+    max-width: 100%;
+    height: auto;
+
+}*/
+
+.Voedsel{
+    background-color: #484848;
+    grid-area: Voedsel;
+    padding: 10px;
+    margin: 5px;
+    height: 50%;
+}
+.Snelheid{
+    background-color: #484848;
+    grid-area: Snelheid;
+    padding: 10px;
+    margin: 5px;
+    height: 50%;
+  
+}
+
+.Afstand{
+    background-color: #484848;
+    grid-area: Afstand;
+    padding: 10px;
+    margin: 5px;
+    height: 50%;
+
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+  grid-template-areas: 
+        "countdown countdown countdown"
+        "voedsel voedsel voedsel"
+        "snelheid snelheid snelheid"
+        "grafiek grafiek grafiek"; 
+}
+
+.Benzine{
+  grid-area: countdown;
+} 
+
+.Voedsel{
+  grid-area: voedsel;
+}
+
+.Snelheid{
+  grid-area: snelheid;
+}
+.Afstand{
+    grid-area: grafiek;
+}
+
+@media only screen and (min-width: 300px) { 
+    .grid-container  {
+        display:grid;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        grid-template-areas:
+        "countdown"
+        "voedsel"
+        "snelheid" 
+        "grafiek";
+    }            
+
+@media only screen and (min-width: 600px) {     
+    .grid-container  {
+        display:grid;
+
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+
+        grid-template-areas:
+        "countdown voedsel"
+        "snelheid grafiek";
+    } 
+
+
+@media only screen and (min-width: 850px) { 
+    .grid-container  {
+        display:grid;
+
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas:
+        "countdown voedsel"
+        "snelheid grafiek";
+    } 
+}
+
