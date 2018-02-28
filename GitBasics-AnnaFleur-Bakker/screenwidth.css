@@ -3,12 +3,8 @@ body{
     padding: 0;
     color: white;
     font-family: 'Asap Condensed', verdana, sans-serif;
-    font-size: 5px;
-    box-sizing: border-box;
-    height: 100%;
-}
-
-html {
+    font-size: 20px;
+    font-color: white;
     height: 100%;
 }
 
@@ -52,15 +48,13 @@ html {
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
 
   grid-template-areas: 
-        "countdown countdown countdown"
-        "voedsel voedsel voedsel"
-        "snelheid snelheid snelheid"
-        "grafiek grafiek grafiek"; 
+        "countdown"
+        "voedsel"
+        "snelheid"
+        "grafiek"; 
 }
 
 .Benzine{
