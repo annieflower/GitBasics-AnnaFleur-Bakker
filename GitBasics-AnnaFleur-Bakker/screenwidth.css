@@ -11,7 +11,7 @@ body{
 .Benzine{
 
     background-color:#484848;
-    grid-area: Benzine;
+    grid-area: countdown;
     padding: 10px; 
     margin: 5px; 
     
@@ -24,21 +24,21 @@ body{
 
 .Voedsel{
     background-color: #484848;
-    grid-area: Voedsel;
+    grid-area: voedsel;
     padding: 10px;
     margin: 5px;
 }
 .Snelheid{
     background-color: #484848;
-    grid-area: Snelheid;
+    grid-area: snelheid;
     padding: 10px;
     margin: 5px;
   
 }
 
-.Afstand{
+.tijd{
     background-color: #484848;
-    grid-area: Afstand;
+    grid-area: klok;
     padding: 10px;
     margin: 5px;
 
@@ -51,7 +51,7 @@ body{
         "countdown"
         "voedsel"
         "snelheid"
-        "grafiek"; 
+        "klok"; 
 }
 
 .Benzine{
@@ -65,8 +65,8 @@ body{
 .Snelheid{
   grid-area: snelheid;
 }
-.Afstand{
-    grid-area: grafiek;
+.tijd{
+    grid-area: tijd;
 }
 
 @media only screen and (min-width: 300px) { 
@@ -80,7 +80,7 @@ body{
         "countdown"
         "voedsel"
         "snelheid" 
-        "grafiek";
+        "klok";
     }            
 
 @media only screen and (min-width: 600px) {     
@@ -93,7 +93,7 @@ body{
 
         grid-template-areas:
         "countdown voedsel"
-        "snelheid grafiek";
+        "snelheid klok";
     } 
 
 
@@ -107,7 +107,7 @@ body{
 
         grid-template-areas:
         "countdown voedsel"
-        "snelheid grafiek";
+        "snelheid klok";
     } 
 }
 
