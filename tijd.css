@@ -15,6 +15,7 @@
           transform-origin: 50% 0;
 }
 .clock::after {
+  position: absolute;
   content: '';
   width: 12px;
   padding-bottom: 12px;
