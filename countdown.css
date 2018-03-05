@@ -1,0 +1,14 @@
+/*.benzine{
+	font-family: Arial;
+	font-size: 100px;
+}
+p,.benzine{
+	font-size: 100px;
+	padding-left: 30px;
+	position: relative;
+}*/
+#fillgauge1{
+background: pink;
+width: 200px;
+margin: 0 auto;
+}
